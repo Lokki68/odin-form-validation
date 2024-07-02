@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Norse;
+    src: url('assets/fonts/Norse-Bold.otf');
+
+
+}
+
+*, *::before, *::after  {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("assets/background.jpg") no-repeat center center;
+    height: 100%;
+    width: 20%;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+        background: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        margin-top: 250px;
+        gap: 15px;
+
+        img {
+            width: 90px;
+            height: 100px;
+
+        }
+
+        span {
+            font-family: Norse, sans-serif;
+            color: #fff;
+            font-size: 5rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.right_section {
+    background: #fff;
+    height: 100%;
+}
